@@ -7,6 +7,8 @@ async function forSearch() {
     alert("Must Provide a City Name!");
     return;
   }
+  require("dotenv").config(); 
+  const api = process.env.api; 
   const currentWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api}`; //link from the website
   const hourlyForecast = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${api}`;
 
