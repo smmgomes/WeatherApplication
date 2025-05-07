@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <script src="./weather-info.js" type="text/javascript"></script>
+    <script
+      src="./finisher-header.es5.min.js"
+      type="text/javascript"
+    ></script>
+
+    <link rel="stylesheet" href="./weather-info.css" />
+  </head>
+  <body onload="weatherDataDisplay()">
+    <button class="go-back-to-search" ><a href="./weather-search-page.html"><img src="./images/icons8-back-100.png"/></a></button>
+    <header class="header finisher-header">
+      <p id="cityName"></p>
+      <p id="currentDate"></p>
+      <p id="cityTemp"></p>
+      <img id="weatherIcon" />
+      <p id="weatherDescription"></p>
+      <p id="max-min-temp"></p>
+      <div class="humidity-feelslike-wind">
+        <div class="displayCurrentWeatherInfo">
+          <p>Feels Like</p>
+          <p>Humidity</p>
+          <p>Wind Speed</p>
+        </div>
+        <div class="displayCurrentWeatherInfo">
+          <p id="feelsLike"></p>
+          <p id="humidity"></p>
+          <p id="windSpeed"></p>
+        </div>
+      </div>
+    </header>
+
+    <div id="forecastDisplay1"></div>
+    <div id="forecastDisplay2"></div>
+    <div id="forecastDisplay3"></div>
+    <!-- footer -->
+    <!-- <footer id="api-credit">
+      This website uses data from
+      <a href="https://openweathermap.org/" target="_blank">OpenWeather</a>
+    </footer> -->
+    <br />
+  </body>
+</html>
