@@ -1,0 +1,36 @@
+Weather application
+Have different background which shows the time of the day of that city (like in the 530 project)
+Just use city 
+Show UV index and write a little note on using sunscreen 
+Datalists? from Bootstrap 
+when taking in inputs, ignore cases
+
+https://www.finisher.co/lab/header/
+
+make it responsive 
+
+no location allow
+    sky blue
+    use the default find 
+location allow
+    use background based on their location b4 search
+    weather for their city will automatically pop up
+after search
+    only the weather of the searched city will pop up 
+    with backgrund change 
+
+
+
+    new ideas:
+    day time whether it is raining or cloudy or sunny: use this background
+    night time whether above, use darker bg 
+
+Morning:
+5-11
+
+Afternoon:
+12-17
+Evening:
+18-21
+Night:
+greater than 22 or greater than 0 and less than 5
