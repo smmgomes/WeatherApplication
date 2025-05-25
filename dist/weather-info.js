@@ -15,6 +15,7 @@ async function forSearch() {
     //promise always needs await!!!!!!!
     const response = await fetch(currentWeather);
     if (response.ok) {
+      console.log("yesysss"); 
       weatherData = await response.json();
       localStorage.setItem("weatherDataKey", JSON.stringify(weatherData)); //json is object, so you need to turn it into string format to pass it in setItem.
     } else {
@@ -53,7 +54,6 @@ function weatherDataDisplay() {
 function currentWeatherDataDisplay() {
   weatherData = localStorage.getItem("weatherDataKey"); //this localStorage is used bc when we move onto another page, the previous data gets erased.
   weatherData = JSON.parse(weatherData); // this turns it back to the object
-  console.log(weatherData);
 
   //time
   const timeZoneOfCity = getCityTime(weatherData.timezone * 1000);
