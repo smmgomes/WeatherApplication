@@ -7,8 +7,9 @@ async function forSearch() {
     alert("Must Provide a City Name!");
     return;
   }
-  const currentWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api}`; //link from the website
-  const hourlyForecast = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${api}`;
+  // const api = 
+  const currentWeather = `https://weatherwebappserver.netlify.app/.netlify/functions/api/current/${city}`; //link from the website
+  const hourlyForecast = `https://weatherwebappserver.netlify.app/.netlify/functions/api/hourly/${city}`;
 
   try {
     //promise always needs await!!!!!!!
