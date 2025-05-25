@@ -1,6 +1,6 @@
 @font-face {
   font-family: font;
-  src: url(../fonts/googleFont.ttf);
+  src: url(./fonts/googleFont.ttf);
 }
 @media (max-width: 930px) {
   #city {

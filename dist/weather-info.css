@@ -7,19 +7,19 @@
 
 @font-face {
   font-family: font;
-  src: url(../fonts/googleFont.ttf);
+  src: url(./fonts/googleFont.ttf);
 }
 @font-face {
   font-family: font1;
-  src: url(../fonts/SmoochSans-VariableFont_wght.ttf);
+  src: url(./fonts/SmoochSans-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: font2;
-  src: url(../fonts/Urbanist-VariableFont_wght.ttf);
+  src: url(./fonts/Urbanist-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: font4;
-  src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+  src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 @media (min-width: 1335px) {
   .DateWeatherDisplay {
